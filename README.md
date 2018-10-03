@@ -1,5 +1,6 @@
 ﻿# Node-Based-Binary-Search-Tree
 
+An implementation of Set ADT Using Binary Search Tree.
 
 # Definitions:
 
@@ -66,29 +67,11 @@ sets.
 the intersection of this BSTSet and s. This method should not modify
 the input sets.
 
-7) public int size(): Returns the number of elements in this set.
+6) public int size(): Returns the number of elements in this set.
 
-6) public void printBSTSet(): Outputs the elements of this set to the console,
+7) public void printBSTSet(): Outputs the elements of this set to the console,
 in increasing order.
 
-7) private void printBSTSet(TNode t): Outputs to the console the elements
+8) private void printBSTSet(TNode t): Outputs to the console the elements
 stored in the subtree rooted in t, in increasing order.
 
-8) For the two printing methods specified above you must use the following code
-
-public void printBSTSet(){
-if(root==null)
-System.out.println("The set is empty");
-else{
-System.out.print("The set elements are: ");
-printBSTSet(root);
-System.out.print("\n");
-}
-}
-private void printBSTSet(TNode t){
-if(t!=null){
-printBSTSet(t.left);
-System.out.print(" " + t.element + ", ");
-printBSTSet(t.right);
-}
-}
