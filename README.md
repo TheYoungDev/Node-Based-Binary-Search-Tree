@@ -77,7 +77,7 @@ in increasing order.
 stored in the subtree rooted in t, in increasing order.
 
 
-# Test Notes
+# Test Notes:
 
 TestBSTSet.java containsthe following test cases:
 Test1---constructor1
