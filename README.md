@@ -80,22 +80,22 @@ stored in the subtree rooted in t, in increasing order.
 # Test Notes:
 
 TestBSTSet.java containsthe following test cases:
-Test1---constructor1
-Test2---constructor2---normal case
-Test3---constructor2---with repetitions
-Test4---isIn(1)---yes
-Test5---isIn(3)---no
-Test6---add(2)---with repetitions
-Test7---add(3)---without repetitions
-Test9---remove(2)
-Test10---remove(6)	
-Test11---remove(30)	
-Test12---union()	
-Test13---union()	
-Test14---intersection()	
-Test15---intersection()-with empty set	
-Test16---size()	
-Test17---size()---empty
+• Test1---constructor1
+• Test2---constructor2---normal case
+• Test3---constructor2---with repetitions
+• Test4---isIn(1)---yes
+• Test5---isIn(3)---no
+• Test6---add(2)---with repetitions
+• Test7---add(3)---without repetitions
+• Test9---remove(2)
+• Test10---remove(6)	
+• Test11---remove(30)	
+• Test12---union()	
+• Test13---union()	
+• Test14---intersection()	
+• Test15---intersection()-with empty set	
+• Test16---size()	
+• Test17---size()---empty
 
 
 
